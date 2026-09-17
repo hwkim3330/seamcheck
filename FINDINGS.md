@@ -69,10 +69,35 @@ belongs to a layer roughly twice as far out.
 Three signals agree: the 3,940-voxel step, the 3,079-voxel radius gap, and the 151°
 azimuth gap. Topology sees none of them.
 
+## The two checks catch different things — measured
+
+Running both on the same three flagged segments, using a *small* representation of each:
+
+| segment | grid | seamcheck | windcheck |
+|---|---|---|---|
+| `20230702185753` | 677×870 | 2.2× `OK` | **11.0× `REVIEW`** |
+| `20231005123336` | 548×1493 | 2.2× `OK` | 2.9× `OK` |
+| `20231210121321` | 1046×718 | 4.0× `OK` | 4.8× `OK` |
+
+Two things fall out of this.
+
+**A verdict belongs to a representation, not to a segment.** The same physical segment
+reads 195× in its 4516×1328 parameterisation and 2.2× in its 677×870 one. The small
+representation does not contain the defective region at all — the tongue is only present
+in the larger one. "Clean" there means "that part is not in this file", which is not the
+same claim. Any corpus-level statement has to name the representation it scanned.
+
+**Winding catches what distance misses.** On the 677×870 representation, `seamcheck` sees
+nothing (2.2×, well inside normal) while `windcheck` flags it at 11.0×. That is the case
+the two-check design exists for: a discontinuity in which wrap you are on, without a
+matching jump in 3D distance.
+
 ## Caveats
 
 - Flagging is not proof. Each `REVIEW` is a coordinate to look at, not a verdict on
   the trace.
 - The scan is incomplete; it covers the scrolls with the most segments first.
+- Verdicts are per representation. A segment can read clean in one parameterisation and
+  badly in another simply because the two cover different parts of the surface.
 - `SPARSE` segments are reported separately rather than judged — low coverage makes
   the median unreliable.
