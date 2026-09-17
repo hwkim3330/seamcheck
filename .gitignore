@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
-*.jsonl
 all.log
-*.json
+wind.log
+*.jsonl
+rejudged.json
