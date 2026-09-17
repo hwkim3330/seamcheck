@@ -102,19 +102,46 @@ matching jump in 3D distance.
 - `SPARSE` segments are reported separately rather than judged — low coverage makes
   the median unreliable.
 
-## The flag rate tracks how the segment was made
+## A result we withdrew
 
-Segments whose names contain `auto_grown` were produced by automatic region growing.
-Splitting the scan on that one string:
+An earlier version of this file reported that segments named `auto_grown` flagged at 66%
+against 20% for the rest, and called it evidence that the checks measure real quality.
 
-| | windcheck flagged | median jump rate | seamcheck flagged |
+**That was wrong, and the cause was a bug in our own code.** `verdict()` tested the jump
+ratio *before* testing coverage, so segments with many empty grid cells were judged
+instead of being set aside. Sparse segments have an unstable median, which inflates the
+ratio — measured, the 20–50% coverage band has a median ratio of 4.5× against 1.7× for
+the 80%+ band, not because they are worse but because the baseline is noisy. Auto-grown
+segments happen to be sparser.
+
+With coverage checked first, the gap disappears:
+
+| | flagged (before fix) | flagged (after fix) |
+|---|---|---|
+| `auto_grown` | 34% | **22%** |
+| hand-curated `w###` | 26% | **22%** |
+
+Identical. There is no provenance effect in this data. We are leaving the retraction in
+rather than deleting the claim, because the bug is one anybody writing this kind of check
+will hit.
+
+## One group that the fix does not explain
+
+Segments whose names contain `z_dbg_gen` behave unlike everything else, and the coverage
+fix does not touch them:
+
+| class | representations judged | flagged | median ratio |
 |---|---|---|---|
-| `auto_grown` | **66%** (106/161) | **0.0109%** | **51%** (42/83) |
-| everything else | 20% (54/272) | **0.0000%** | 27% (148/545) |
+| `w###` (hand-curated) | 806 | 22% | 1.9× |
+| `auto_grown` | 174 | 22% | 1.2× |
+| other | 277 | 6% | 1.3× |
+| **`z_dbg_gen`** | **105** | **100%** | **19.3×** |
 
-The median hand-curated representation has **not one cell** above 6× its own median
-angular step. The median auto-grown one has some. This is the strongest evidence we have
-that the checks measure something real: the flag rate is not uniform noise, it correlates
-with how the surface was produced, and in the direction you would predict.
+Every single one, at a median ratio an order of magnitude above every other class. Their
+directory layout is a normal segment's — tifxyz, three OBJs, ink-detection outputs, 1,123
+files — so they are not obviously scratch data, but `dbg` in the name suggests they may be
+generated for debugging rather than traced.
 
-It also suggests where the checks are worth running first.
+We are not calling these defects. Either those surfaces really are discontinuous, or the
+check systematically misreads whatever produced them. Distinguishing the two needs someone
+who knows what `z_dbg_gen` is; that question is the concrete thing this scan surfaces.

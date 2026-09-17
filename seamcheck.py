@@ -98,13 +98,19 @@ def check(P, valid, k_flag: float = 5.0, k_bad: float = 10.0) -> dict:
 
 
 def verdict(r: dict) -> str:
-    """사람이 다시 봐야 하는가."""
+    """사람이 다시 봐야 하는가.
+
+    유효 격자가 적으면 판정하지 않는다. 빈칸이 많은 조각은 중앙값 자체가
+    흔들려 배율이 의미를 잃는다. 실측에서 유효율 20~50% 구간은 배율 중앙이
+    4.5배로 80% 이상 구간(1.7배)의 2.6배였다 — 결함이 더 많아서가 아니라
+    기준선이 불안정해서다. 그래서 먼저 걸러낸다.
+    """
+    if r["coverage"] < 0.5:
+        return "SPARSE"        # 판정 보류 — 빈칸이 많다
     if r["ratio"] >= 10 or r["severe"] > 0:
         return "REVIEW"        # 시트 전환이 의심된다
     if r["ratio"] >= 5 or r["flag_rate"] > 1e-4:
         return "WATCH"         # 국소적으로 튄다
-    if r["coverage"] < 0.5:
-        return "SPARSE"        # 빈칸이 많다
     return "OK"
 
 
