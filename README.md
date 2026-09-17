@@ -79,3 +79,48 @@ A 630×687 segment analyses in well under a second; the network is the only slow
 
 MIT-0 / public domain. Data from the
 [Vesuvius Challenge open dataset](https://scrollprize.org/data) (CC BY 4.0).
+
+---
+
+## Three checks, not one
+
+A trace can fail in ways that only one of these can see.
+
+| check | reads | catches | blind to |
+|---|---|---|---|
+| `seamcheck.py` | `tifxyz` | sheet switch that moves in 3D | a switch onto a *touching* wrap |
+| `windcheck.py` | `tifxyz` | sheet switch that changes winding | anything near the scroll axis |
+| `meshcheck.py` | `.obj` | holes, mergers, split pieces | sheet switches (mesh stays manifold) |
+
+### windcheck: winding number
+
+`seamcheck` measures distance. But where the scroll is tightly compressed, the next
+wrap is only a few voxels away, and a trace that slips onto it barely moves in 3D.
+What always changes is *which wrap you are on*.
+
+So: fit the scroll axis as the first principal component of the valid points (measured:
+aligns with z to 0.99), take the azimuth of every grid cell around it, and unwrap along
+the grid's u direction. In a clean segment the angular step per cell is tight — measured
+0.51°, 99th percentile 0.71°.
+
+Two things had to be handled, and both produced a false-positive storm before they were:
+
+1. **Gaps.** Two cells with holes between them are not neighbours. Differencing across a
+   gap manufactured 66° "jumps" and blew the ratio to several hundred. Runs are now split
+   at gaps and never differenced across them.
+2. **The axis.** At the scroll's core the radius approaches zero, where a 20-voxel move is
+   hundreds of degrees — one measured point sat 3 voxels from the axis and produced 428°.
+   Cells closer than `max(200, 0.15 × median radius)` are excluded from the verdict.
+
+With both fixed, 24 of 28 segments in PHerc1667 read `OK`, and the four that do not are
+qualitatively different — not a larger number but a different kind:
+
+| | jump rate (steps > 6× median) |
+|---|---|
+| the 24 `OK` segments | **0.0000%** — not one cell |
+| the 4 flagged | 0.10 – 0.13% |
+
+The same physical segment flags in independent representations at different grid
+resolutions, and the flagged cells are not scattered: they line up in regular vertical
+columns, about one per turn of the scroll. That is the signature of a repeating structure,
+not of noise.
