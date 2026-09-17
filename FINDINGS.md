@@ -5,12 +5,12 @@ Numbers below are the state at 269 surface representations.
 
 ## Baseline: what "normal" looks like
 
-This is the part that makes the check portable. Across 269 representations from
-many scrolls, many scan sessions, and grid sizes from 129×357 to 5276×18079:
+This is the part that makes the check portable. Across 612 representations from many scrolls, scan sessions, and grid sizes from
+129×357 to 5276×18079:
 
 | | value |
 |---|---|
-| median neighbour step | **19.9 – 20.1 voxels** — essentially constant everywhere |
+| median neighbour step | **20 voxels** for 544 of 612 representations; a second cluster at **78** |
 | max/median ratio, typical segment | 1.35× |
 | max/median ratio, 90th percentile | 2.17× |
 | worst clean segment | 3.06× |
@@ -101,3 +101,20 @@ matching jump in 3D distance.
   badly in another simply because the two cover different parts of the surface.
 - `SPARSE` segments are reported separately rather than judged — low coverage makes
   the median unreliable.
+
+## The flag rate tracks how the segment was made
+
+Segments whose names contain `auto_grown` were produced by automatic region growing.
+Splitting the scan on that one string:
+
+| | windcheck flagged | median jump rate | seamcheck flagged |
+|---|---|---|---|
+| `auto_grown` | **66%** (106/161) | **0.0109%** | **51%** (42/83) |
+| everything else | 20% (54/272) | **0.0000%** | 27% (148/545) |
+
+The median hand-curated representation has **not one cell** above 6× its own median
+angular step. The median auto-grown one has some. This is the strongest evidence we have
+that the checks measure something real: the flag rate is not uniform noise, it correlates
+with how the surface was produced, and in the direction you would predict.
+
+It also suggests where the checks are worth running first.

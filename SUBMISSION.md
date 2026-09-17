@@ -18,9 +18,11 @@ them needs a GPU, a CT volume, or model weights. Three TIFFs — about 3 MB — 
 ## Why a distance check works at all
 
 Across 400+ surface representations from many scrolls, scan sessions, and grid sizes
-from 129×357 to 5276×18079, the median neighbour step is **19.9–20.1 voxels**. The
-pipeline samples on a uniform ~20-voxel grid, so a threshold written as a multiple of
-each segment's own median transfers everywhere without tuning. The worst *clean*
+from 129×357 to 5276×18079, the median neighbour step falls in two tight clusters: **20 voxels** (544 of 612
+representations) and **78** (30 of them), matching the scan resolutions in the dataset
+(1.129 µm to 45.5 µm). Within a cluster the spread is under 5%. Because the threshold is
+written as a multiple of *each segment's own* median, it transfers across both without
+tuning — which is the point of using a relative measure rather than an absolute one. The worst *clean*
 segment observed is 3.06×; the 5× threshold sits comfortably above it.
 
 That baseline is, as far as we could find, not published anywhere. It is the part of
