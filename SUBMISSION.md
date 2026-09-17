@@ -1,64 +1,56 @@
-# Vesuvius Challenge — Progress Prize submission (draft)
+# Vesuvius Challenge — Progress Prize submission
 
 **Repo:** https://github.com/hwkim3330/seamcheck · MIT-0
-**Targets:** Open Problem #3 (automatic mesh topology repair) and, as a by-product,
-Open Problem #6 (automating winding-number annotation).
+**Targets:** Open Problem #3 (automatic mesh topology repair); Open Problem #6
+(automating winding-number annotation) as a by-product.
 
 ## What it is
 
-Three checks that read a traced surface and say *where a human should look*. None of
-them needs a GPU, a CT volume, or model weights. Three TIFFs — about 3 MB — per segment.
+Three checks that read a traced surface and say *where a human should look*. No GPU, no CT
+volume, no model weights. About 3 MB per segment; a 630×687 segment analyses in well under
+a second.
 
 | tool | reads | catches | blind to |
 |---|---|---|---|
 | `seamcheck.py` | `tifxyz` | sheet switch that moves in 3D | a switch onto a touching wrap |
-| `windcheck.py` | `tifxyz` | sheet switch that changes winding number | anything near the scroll axis |
+| `windcheck.py` | `tifxyz` | sheet switch that changes winding number | cells near the scroll axis |
 | `meshcheck.py` | `.obj` | holes, mergers, split components | sheet switches — the mesh stays manifold |
 
-## Why a distance check works at all
+## What is in this submission
 
-Across 400+ surface representations from many scrolls, scan sessions, and grid sizes
-from 129×357 to 5276×18079, the median neighbour step falls in two tight clusters: **20 voxels** (544 of 612
-representations) and **78** (30 of them), matching the scan resolutions in the dataset
-(1.129 µm to 45.5 µm). Within a cluster the spread is under 5%. Because the threshold is
-written as a multiple of *each segment's own* median, it transfers across both without
-tuning — which is the point of using a relative measure rather than an absolute one. The worst *clean*
-segment observed is 3.06×; the 5× threshold sits comfortably above it.
+1. **A corpus-wide baseline.** 45 scrolls, 322 segments, 1,246 surface representations
+   scanned. Median neighbour step is 20 voxels for 1,131 of them, with clusters at 21, 22,
+   27, 28 and 78 matching the dataset's scan resolutions. Typical max/median ratio 1.78×.
+   We could not find this measured anywhere, and it is what lets a single relative
+   threshold work across every scroll without tuning.
 
-That baseline is, as far as we could find, not published anywhere. It is the part of
-this submission most likely to be useful to others regardless of the tools.
+2. **The results themselves**, as `results_seamcheck.csv` (1,246 rows) and
+   `results_windcheck.csv` (553 rows). Usable without running the tools.
 
-## What it found
+3. **Automatic winding numbers.** `windcheck` fits the scroll axis (first principal
+   component; 0.99 alignment with z) and reports turns spanned per segment — median 0.96,
+   max 29.6. That is the annotation Open Problem #6 asks to automate.
 
-3 distinct segments flagged, each independently in four different representations:
+4. **A list of places to look.** 96 of 322 segments have at least one flagged
+   representation. The clearest: `20230702185753_v14` jumps 3,940 voxels where normal is
+   20. Splitting at the seam, the two sides sit 3,079 voxels apart in radius and 151° apart
+   in azimuth — grid neighbours on different wraps. Topology sees none of it.
 
-| segment | ratio across representations | largest step |
-|---|---|---|
-| `20230702185753_v14` | **195.7 / 195.3 / 195.3 / 34.9** | 3,940 voxels |
-| `20231005123336_v2` | 24.5 / 16.8 / 16.8 / 14.0 | 491 voxels |
-| `20231210121321_v8` | 14.8 / 13.7 / 13.7 / 13.6 | 297 voxels |
+5. **One open question for someone who knows the pipeline.** All 85 judged `z_dbg_gen`
+   representations flag, at median 19.9× against 1.2–2.0× for every other class. We do not
+   claim these are defects; we cannot tell from outside whether those surfaces are
+   discontinuous or the check misreads how they were made.
 
-The worst one, confirmed three independent ways: a 3,940-voxel step where normal is 20;
-a **3,079-voxel radius gap** between the two sides of the seam; a **151° azimuth gap**.
-A tongue-shaped piece at the top of the sheet is stitched to a body that lies on a
-different wrap. The mesh is manifold across that seam, so topology checks see nothing.
+## What we got wrong, and left in
 
-## Winding numbers, free
+We first reported that `auto_grown` segments flagged at 66% against 20%, and called it
+evidence the checks measure real quality. It was our own bug: `verdict()` tested the jump
+ratio before testing coverage, so sparse segments were judged instead of set aside, and
+sparse segments have an unstable median. With the order fixed, `auto_grown` and
+hand-curated segments both flag at about the same rate and the effect vanishes.
 
-`windcheck` fits the scroll axis (first principal component; measured 0.99 alignment
-with z) and reports how many turns each segment spans — median 1.11, max 29.6 in the
-scanned set. That is the annotation Open Problem #6 asks to automate.
-
-## Honest limits
-
-- Flags are coordinates to inspect, not verdicts.
-- `seamcheck` cannot see a switch onto a wrap that is physically touching; that is why
-  `windcheck` exists. `windcheck` cannot judge cells near the axis, where radius → 0 and
-  a 20-voxel move becomes hundreds of degrees.
-- Two false-positive storms were found and fixed during development, both documented in
-  the README rather than quietly removed: differencing across grid gaps, and including
-  near-axis cells.
-- The corpus scan is still running and covers the largest scrolls first.
+The retraction is in `FINDINGS.md` rather than the claim being deleted, because anyone
+writing this kind of check will hit the same bug.
 
 ## Reproduce
 
