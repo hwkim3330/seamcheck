@@ -52,6 +52,23 @@ The two are neighbours in the grid and 3,940 voxels apart in space.
 
 A topology check sees nothing here. The mesh is manifold across that seam.
 
+### Confirmed by a second, independent measurement
+
+Distance flagged it. Position around the scroll axis confirms it. Splitting the segment at
+the flagged boundary (`v = 557`) and measuring each part against the fitted axis:
+
+| | tongue (161k points) | main body (4.35M points) |
+|---|---|---|
+| median radius from axis | **6,254** | **3,175** |
+| median azimuth | 125.8° | −25.1° |
+
+The two parts sit **3,079 voxels apart in radius** and 151° apart in angle. They are
+adjacent cells in the grid and they are on different wraps of the scroll — the tongue
+belongs to a layer roughly twice as far out.
+
+Three signals agree: the 3,940-voxel step, the 3,079-voxel radius gap, and the 151°
+azimuth gap. Topology sees none of them.
+
 ## Caveats
 
 - Flagging is not proof. Each `REVIEW` is a coordinate to look at, not a verdict on
