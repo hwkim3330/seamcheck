@@ -99,7 +99,8 @@ wrap is only a few voxels away, and a trace that slips onto it barely moves in 3
 What always changes is *which wrap you are on*.
 
 So: fit the scroll axis as the first principal component of the valid points (measured:
-aligns with z to 0.99), take the azimuth of every grid cell around it, and unwrap along
+aligns with z to 0.992 at the median, but as poorly as 0.018 on segments too short to
+constrain a direction), take the azimuth of every grid cell around it, and unwrap along
 the grid's u direction. In a clean segment the angular step per cell is tight — measured
 0.51°, 99th percentile 0.71°.
 

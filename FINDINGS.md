@@ -12,7 +12,7 @@ representations, many scrolls, many scan sessions, grid sizes from 129×357 to 5
 | | value |
 |---|---|
 | median neighbour step | **20 voxels** (1,131 of 1,246); smaller clusters at 21, 22, 27, 28, **78** |
-| max/median ratio, typical | **1.78×** |
+| max/median ratio, typical | **1.78×** (median of the 1,102 representations with enough coverage to judge; 1.90× if the 144 sparse ones are included) |
 | 90th percentile | 32.5× |
 
 The step clusters match the scan resolutions in the dataset (1.129 µm to 45.5 µm). Because
@@ -72,7 +72,9 @@ who knows what `z_dbg_gen` is. Surfacing that question is what this scan is for.
 ## The clearest single case
 
 The worst hand-curated segment, `20230702185753_v14`, jumps **3,940 voxels** where normal is
-20, in 24,842 cells, and flags in four independent representations.
+20, in 24,842 cells, and flags in **three** independent representations
+(239×68, 4522×1280, 4516×1328). The raw scan holds a fourth record, but it is a duplicate
+measurement of 4522×1280 from an overlapping per-scroll run, not a separate representation.
 
 ![worst](findings_worst.png)
 
