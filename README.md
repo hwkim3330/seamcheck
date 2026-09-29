@@ -2,6 +2,10 @@
 
 **Find where a papyrus surface trace jumped to the wrong sheet — in under a second, without a GPU.**
 
+**Results for the whole open dataset** — 1,246 surface representations, 322 segments, 45 scrolls —
+are on Hugging Face: [kimhyunwoo/vesuvius-seam-continuity](https://huggingface.co/datasets/kimhyunwoo/vesuvius-seam-continuity).
+No need to run anything to use them. What was found is in [FINDINGS.md](FINDINGS.md).
+
 Vesuvius Challenge [Open Problem #3](https://scrollprize.org/2026_open_problems) asks for tools that
 catch mesh-tracing errors "like holes, mergers, and sheet switches without a human checking every
 traced piece." `seamcheck` is a first, deliberately small step at that: a continuity test on the
