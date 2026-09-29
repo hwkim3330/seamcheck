@@ -16,6 +16,19 @@ a second.
 | `windcheck.py` | `tifxyz` | sheet switch that changes winding number | cells near the scroll axis |
 | `meshcheck.py` | `.obj` | holes, mergers, split components | sheet switches — the mesh stays manifold |
 
+## Headline: automatic repair, with a control
+
+`repair.py` erases the seam and writes a corrected `tifxyz`. Run on all 442 representations of the 96
+flagged segments and on 185 representations of 40 random clean segments:
+
+- area kept: median 99.97% (flagged), 100.00% (control)
+- distance verdict: 335 improved, 0 worsened
+- **winding verdict — a signal the repair never uses — 109 improved, 0 worsened**; median worst
+  winding ratio 20.1× → 8.2×
+- control: all 185 representations unchanged, cell for cell
+
+Figure: `repair_v14.png`. Per-representation results: `results_repair.csv`.
+
 ## What is in this submission
 
 1. **A corpus-wide baseline.** 45 scrolls, 322 segments, 1,246 surface representations

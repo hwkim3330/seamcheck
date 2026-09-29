@@ -1,3 +1,5 @@
 numpy
 tifffile
 imagecodecs
+scipy
+matplotlib  # figure_repair.py 만

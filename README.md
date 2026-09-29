@@ -1,6 +1,6 @@
 # seamcheck
 
-**Find where a papyrus surface trace jumped to the wrong sheet — in under a second, without a GPU.**
+**Find where a papyrus surface trace jumped to the wrong sheet — and cut it out — without a GPU.**
 
 **Results for the whole open dataset** — 1,246 surface representations, 322 segments, 45 scrolls —
 are on Hugging Face: [kimhyunwoo/vesuvius-seam-continuity](https://huggingface.co/datasets/kimhyunwoo/vesuvius-seam-continuity).
@@ -9,7 +9,55 @@ No need to run anything to use them. What was found is in [FINDINGS.md](FINDINGS
 Vesuvius Challenge [Open Problem #3](https://scrollprize.org/2026_open_problems) asks for tools that
 catch mesh-tracing errors "like holes, mergers, and sheet switches without a human checking every
 traced piece." `seamcheck` is a first, deliberately small step at that: a continuity test on the
-`tifxyz` surface representation.
+`tifxyz` surface representation, and now **an automatic repair** (`repair.py`) that erases the
+seam and writes the corrected surface back out as `tifxyz`.
+
+## Repair, measured on the whole corpus
+
+![v14 before and after](repair_v14.png)
+
+`repair.py` cuts every grid link whose 3D step exceeds 5× the segment's own median step, erases one
+cell per cut link (the one touching more bad links, so the seam goes as a single line), and writes
+the result in the same `tifxyz` format with the original grid coordinates — so it drops straight
+into flattening and ink detection.
+
+We ran it on **every representation of the 96 flagged segments (442)** and, as a control, on
+**every representation of 40 randomly chosen clean segments (185)**. The check that matters is the
+second one below: repair uses 3D distance, so re-measuring distance afterwards proves nothing. The
+**winding check** (angular continuity around the scroll axis) is never used by the repair, so it is
+an independent test of whether the surface actually got better. The winding checker was applied
+unchanged before, after and to the controls.
+
+| | flagged (442) | control (185) |
+|---|---|---|
+| area kept, median | **99.97%** | 100.00% |
+| area kept, worst | 95.8% | 100.0% |
+| distance verdict improved / worsened | 335 / **0** | 0 / 0 |
+| **winding verdict improved / worsened** | **109 / 0** | 0 / 0 |
+| winding worst-step ratio, median | **20.1× → 8.2×** | 4.3× → 4.3× |
+| winding ratio up by >10% | 2 | 0 |
+
+It improves only where there was something to fix, and touches nothing else: all 185 control
+representations come back cell-for-cell identical. Per-representation numbers are in
+[`results_repair.csv`](results_repair.csv).
+
+**What it does not do.** It never split a representation into two surfaces. On
+20230702185753_v14 we tried lower cut thresholds down to 2× and the "tongue" never separated. That is
+the right behaviour: the segment spirals through radii 479–8,182, the tongue sits inside that range,
+and it is attached to the rest smoothly elsewhere. The defect is the line where the tracer stitched it
+to the wrong neighbour row — the 3,931-voxel jump — and that line is what gets erased. The residual
+winding flags on v14 sit near the scroll core (median radius 599 against 3,246 overall) on cells whose
+3D step is normal (median 20.1 voxels): the winding check divides arc length by radius, so it
+over-reads small radii. We report that rather than retune the checker after seeing the result.
+
+The two representations whose winding ratio rose (19.1× → 22.6×, both still REVIEW) are both
+`z_dbg_gen` — the class we already could not explain (see FINDINGS.md).
+
+```bash
+python repair.py path/or/url/to/seg.tifxyz --out fixed/   # writes fixed/part00.tifxyz
+python repairall.py                                       # the corpus run above
+python repairsummary.py                                   # the table above
+```
 
 ## The idea
 
@@ -51,7 +99,7 @@ tightness is what makes the test work: a sheet switch is not a 2× outlier, it i
 ## Use
 
 ```bash
-pip install numpy tifffile imagecodecs
+pip install numpy tifffile imagecodecs scipy
 
 python seamcheck.py path/to/tifxyz              # one local segment
 python seamcheck.py --s3 PHercParis4            # a whole scroll, straight from S3
@@ -71,7 +119,7 @@ A 630×687 segment analyses in well under a second; the network is the only slow
 
 ## What this does not do
 
-- It does not repair anything. It says *where to look*.
+- Repair removes the seam; it does not re-trace the surface across it. The erased line is a gap.
 - It cannot see a sheet switch that happens to land at the same distance as a normal step — a
   tracer that slips onto a wrap that is locally touching will pass this test.
 - It says nothing about ink, and nothing about whether the surface is the *right* surface — only

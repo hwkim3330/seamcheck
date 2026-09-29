@@ -1,0 +1,629 @@
+할 일 627개 (이미 한 것 0개)
+[1/627] control 20230929220926                      거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[2/627] control 20230929220926                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[3/627] control 20230929220926                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[4/627] control 20230929220926                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[5/627] control 20230929220926                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[6/627] control 20231005123336                      거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[7/627] control 20231005123336                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[8/627] control 20231005123336                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[9/627] control 20231005123336                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[10/627] control 20231005123336                      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[11/627] flagged 20260602230115-20230702185753_v14   거리 REVIEW→OK     권취 WATCH →WATCH  남김  99.7%  조각 1
+[12/627] flagged 20260602230115-20230702185753_v14   거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.6%  조각 1
+[13/627] flagged 20260602230115-20230702185753_v14   거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.6%  조각 1
+[14/627] flagged 20260602230115-20230702185753_v14   거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.6%  조각 1
+[15/627] flagged 20260603222816-20231005123336_v2_f  거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[16/627] flagged 20260603222816-20231005123336_v2_f  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[17/627] flagged 20260603222816-20231005123336_v2_f  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[18/627] flagged 20260603222816-20231005123336_v2_f  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[19/627] flagged 20260603222816-20231005123336_v2_f  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[20/627] flagged 20260603222816-20231005123336_v2_f  거리 REVIEW→OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[21/627] flagged 20260604223808-20231210121321_v8    거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[22/627] flagged 20260604223808-20231210121321_v8    거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[23/627] flagged 20260604223808-20231210121321_v8    거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[24/627] flagged 20260604223808-20231210121321_v8    거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[25/627] flagged 20260604223808-20231210121321_v8    거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[26/627] control 20260623141924-w010-027             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[27/627] flagged 20260604223808-20231210121321_v8    거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[28/627] control 20260623141924-w010-027             거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[29/627] control 20260623141924-w010-027             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[30/627] control 20260623141924-w010-027             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[31/627] control 20260623141924-w010-027             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[32/627] control 20260623141924-w010-027             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[33/627] flagged 20260623144957-w053-058             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[34/627] flagged 20260623144957-w053-058             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[35/627] flagged 20260623144957-w053-058             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[36/627] flagged 20260623144957-w053-058             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[37/627] flagged 20260623144957-w053-058             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[38/627] flagged 20260623145652-w059-063             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[39/627] flagged 20260623145652-w059-063             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[40/627] flagged 20260623145652-w059-063             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[41/627] flagged 20260623144957-w053-058             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[42/627] flagged 20260623145652-w059-063             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[43/627] flagged 20260623145652-w059-063             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[44/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[45/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[46/627] flagged 20260623145652-w059-063             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[47/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[48/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[49/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[50/627] control 20260623162614-w107-109             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[51/627] control 20260623162614-w107-109             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[52/627] control 20260623162614-w107-109             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[53/627] control 20260623162614-w107-109             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[54/627] control 20260623162614-w107-109             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[55/627] control 20260623163339-w110-112             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[56/627] control 20260623163339-w110-112             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[57/627] control 20260623153216-w081-084             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[58/627] control 20260623163339-w110-112             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[59/627] control 20260623163339-w110-112             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[60/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[61/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[62/627] control 20260623163339-w110-112             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[63/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[64/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[65/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[66/627] flagged 20260623170833-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[67/627] flagged 20260623170833-w124-125             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[68/627] flagged 20260623170833-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[69/627] flagged 20260623170833-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[70/627] flagged 20260623170833-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[71/627] flagged 20260623171400-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[72/627] flagged 20260623171400-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[73/627] flagged 20260623170305-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[74/627] flagged 20260623171400-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[75/627] flagged 20260623171400-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[76/627] flagged 20260623171929-w128-129             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[77/627] flagged 20260623171929-w128-129             거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[78/627] flagged 20260623171400-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[79/627] flagged 20260623171929-w128-129             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[80/627] flagged 20260623171929-w128-129             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[81/627] flagged 20260701183124-w010-027             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[82/627] flagged 20260701183124-w010-027             거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[83/627] flagged 20260623171929-w128-129             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[84/627] flagged 20260701183124-w010-027             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[85/627] flagged 20260701183124-w010-027             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[86/627] flagged 20260701183125-w028-037             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[87/627] flagged 20260701183125-w028-037             거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[88/627] flagged 20260701183125-w028-037             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[89/627] flagged 20260701183125-w028-037             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[90/627] flagged 20260701183125-w028-037             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[91/627] flagged 20260701183126-w038-045             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[92/627] flagged 20260701183126-w038-045             거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[93/627] flagged 20260701183124-w010-027             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[94/627] flagged 20260701183126-w038-045             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[95/627] flagged 20260701183126-w038-045             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[96/627] flagged 20260701183127-w046-052             거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[97/627] flagged 20260701183126-w038-045             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[98/627] flagged 20260701183127-w046-052             거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[99/627] flagged 20260701183127-w046-052             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[100/627] flagged 20260701183128-w053-058             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[101/627] flagged 20260701183128-w053-058             거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[102/627] flagged 20260701183128-w053-058             거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[103/627] flagged 20260701183128-w053-058             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[104/627] flagged 20260701183129-w059-063             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[105/627] flagged 20260701183127-w046-052             거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[106/627] flagged 20260701183129-w059-063             거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[107/627] flagged 20260701183129-w059-063             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[108/627] flagged 20260701183129-w059-063             거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[109/627] flagged 20260701183130-w064-068             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[110/627] flagged 20260701183130-w064-068             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[111/627] flagged 20260701183130-w064-068             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[112/627] flagged 20260701183131-w069-072             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[113/627] flagged 20260701183130-w064-068             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[114/627] flagged 20260701183131-w069-072             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[115/627] flagged 20260701183131-w069-072             거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[116/627] flagged 20260701183132-w073-076             거리 OK    →OK     권취 OK    →OK     남김  99.8%  조각 1
+[117/627] flagged 20260701183131-w069-072             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[118/627] flagged 20260701183132-w073-076             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.8%  조각 1
+[119/627] flagged 20260701183132-w073-076             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[120/627] flagged 20260701183133-w077-080             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[121/627] flagged 20260701183132-w073-076             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.8%  조각 1
+[122/627] flagged 20260701183133-w077-080             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[123/627] flagged 20260701183133-w077-080             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[124/627] flagged 20260701183134-w081-084             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[125/627] flagged 20260701183134-w081-084             거리 REVIEW→OK     권취 REVIEW→WATCH  남김  99.8%  조각 1
+[126/627] flagged 20260701183134-w081-084             거리 REVIEW→OK     권취 WATCH →WATCH  남김  99.8%  조각 1
+[127/627] flagged 20260701183134-w081-084             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[128/627] flagged 20260701183135-w085-088             거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[129/627] flagged 20260701183135-w085-088             거리 REVIEW→OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[130/627] flagged 20260701183135-w085-088             거리 REVIEW→OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[131/627] flagged 20260701183133-w077-080             거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[132/627] flagged 20260701183136-w089-091             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[133/627] flagged 20260701183135-w085-088             거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[134/627] flagged 20260701183136-w089-091             거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[135/627] flagged 20260701183136-w089-091             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[136/627] flagged 20260701183137-w092-094             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[137/627] flagged 20260701183136-w089-091             거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[138/627] flagged 20260701183137-w092-094             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[139/627] flagged 20260701183137-w092-094             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[140/627] flagged 20260701183138-w095-097             거리 WATCH →OK     권취 OK    →OK     남김  99.9%  조각 1
+[141/627] flagged 20260701183137-w092-094             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[142/627] flagged 20260701183138-w095-097             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[143/627] flagged 20260701183138-w095-097             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[144/627] flagged 20260701183139-w098-100             거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[145/627] flagged 20260701183138-w095-097             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[146/627] flagged 20260701183139-w098-100             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[147/627] flagged 20260701183139-w098-100             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[148/627] flagged 20260701183140-w101-103             거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[149/627] flagged 20260701183140-w101-103             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[150/627] flagged 20260701183140-w101-103             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[151/627] flagged 20260701183140-w101-103             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[152/627] flagged 20260701183141-w104-106             거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[153/627] flagged 20260701183141-w104-106             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[154/627] flagged 20260701183141-w104-106             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[155/627] flagged 20260701183141-w104-106             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[156/627] flagged 20260701183142-w107-109             거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[157/627] flagged 20260701183139-w098-100             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[158/627] flagged 20260701183142-w107-109             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[159/627] flagged 20260701183142-w107-109             거리 REVIEW→WATCH  권취 WATCH →WATCH  남김  99.9%  조각 1
+[160/627] flagged 20260701183143-w110-112             거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[161/627] flagged 20260701183142-w107-109             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[162/627] flagged 20260701183143-w110-112             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[163/627] flagged 20260701183143-w110-112             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[164/627] flagged 20260701183144-w113-115             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[165/627] flagged 20260701183143-w110-112             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[166/627] flagged 20260701183144-w113-115             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[167/627] flagged 20260701183144-w113-115             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[168/627] flagged 20260701183144-w113-115             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[169/627] flagged 20260701183145-w116-117             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[170/627] flagged 20260701183145-w116-117             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[171/627] flagged 20260701183145-w116-117             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[172/627] flagged 20260701183146-w118-119             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[173/627] flagged 20260701183146-w118-119             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[174/627] flagged 20260701183146-w118-119             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[175/627] flagged 20260701183146-w118-119             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[176/627] flagged 20260701183147-w120-121             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[177/627] flagged 20260701183147-w120-121             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[178/627] flagged 20260701183147-w120-121             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[179/627] flagged 20260701183147-w120-121             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[180/627] flagged 20260701183148-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[181/627] flagged 20260701183145-w116-117             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[182/627] flagged 20260701183148-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[183/627] flagged 20260701183148-w122-123             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.8%  조각 1
+[184/627] flagged 20260701183149-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[185/627] flagged 20260701183148-w122-123             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[186/627] flagged 20260701183149-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[187/627] flagged 20260701183149-w124-125             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.7%  조각 1
+[188/627] flagged 20260701183150-w126-127             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[189/627] flagged 20260701183149-w124-125             거리 REVIEW→OK     권취 REVIEW→OK     남김  99.9%  조각 1
+[190/627] flagged 20260701183150-w126-127             거리 REVIEW→OK     권취 REVIEW→WATCH  남김  99.9%  조각 1
+[191/627] flagged 20260701183150-w126-127             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.3%  조각 1
+[192/627] flagged 20260701183151-w128-129             거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[193/627] flagged 20260701183150-w126-127             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[194/627] flagged 20260701183151-w128-129             거리 REVIEW→OK     권취 REVIEW→WATCH  남김  99.9%  조각 1
+[195/627] flagged 20260701183151-w128-129             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.2%  조각 1
+[196/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[197/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[198/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[199/627] flagged 20260701183151-w128-129             거리 REVIEW→WATCH  권취 REVIEW→WATCH  남김  99.9%  조각 1
+[200/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[201/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[202/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[203/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[204/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[205/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[206/627] control 20251220020000-w030_2025122002_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[207/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[208/627] control 20260108140509-w011_20260108140509  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[209/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[210/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[211/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[212/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[213/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[214/627] flagged 20260116230000-w035_2026011623_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[215/627] flagged 20260116230000-w035_2026011623_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[216/627] control 20260110010000-w033_2026011001_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[217/627] flagged 20260116230000-w035_2026011623_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[218/627] flagged 20260116230000-w035_2026011623_fla  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[219/627] flagged 20260116230000-w035_2026011623_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[220/627] flagged 20260119120000-w036_2026011912_fla  거리 OK    →OK     권취 OK    →OK     남김  99.9%  조각 1
+[221/627] flagged 20260119120000-w036_2026011912_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[222/627] flagged 20260116230000-w035_2026011623_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[223/627] flagged 20260119120000-w036_2026011912_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[224/627] flagged 20260119120000-w036_2026011912_fla  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[225/627] flagged 20260119120000-w036_2026011912_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[226/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[227/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[228/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[229/627] flagged 20260119120000-w036_2026011912_fla  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[230/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[231/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[232/627] control 20260203210000-w040_2026020321_fla  거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[233/627] flagged 20260612121456-w011_20260108140509  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[234/627] flagged 20260612121456-w011_20260108140509  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[235/627] flagged 20260612121456-w011_20260108140509  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[236/627] flagged 20260612121456-w011_20260108140509  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[237/627] control 20250928235954-auto_grown_20250928  거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[238/627] control 20250928235954-auto_grown_20250928  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[239/627] control 20250928235954-auto_grown_20250928  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[240/627] control 20250928235954-auto_grown_20250928  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[241/627] control 20250928235954-auto_grown_20250928  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[242/627] control 20260226000000-46527_2um_try2       거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[243/627] control 20260226000000-46527_2um_try2       거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[244/627] control 20260226000000-46527_2um_try2       거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[245/627] control 20260226000000-46527_2um_try2       거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[246/627] control 20260226000000-46527_2um_try2       거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[247/627] control 20260226113324-auto_grown_20260226  거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[248/627] control 20260226113324-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[249/627] control 20260226113324-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[250/627] control 20260226113324-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[251/627] control 20260226113324-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[252/627] control 20260226121302-auto_grown_20260226  거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[253/627] control 20260226121302-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[254/627] flagged 20260612121456-w011_20260108140509  거리 WATCH →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[255/627] control 20260226121302-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[256/627] control 20260226121302-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[257/627] control 20260226121302-auto_grown_20260226  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[258/627] control 20250502182142-auto_grown_20250502  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[259/627] control 20250502182142-auto_grown_20250502  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[260/627] control 20250502182142-auto_grown_20250502  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[261/627] control 20250502182456-auto_grown_20250502  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[262/627] control 20250502182456-auto_grown_20250502  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[263/627] control 20250502182456-auto_grown_20250502  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[264/627] flagged 20251105093211-z_dbg_gen_00320      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  95.8%  조각 1
+[265/627] flagged 20251105093211-z_dbg_gen_00320      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  95.8%  조각 1
+[266/627] flagged 20251105093211-z_dbg_gen_00320      거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.8%  조각 1
+[267/627] flagged 20251105093211-z_dbg_gen_00320      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  95.8%  조각 1
+[268/627] flagged 20251217234605-w2_2025121723460518  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.6%  조각 1
+[269/627] control 20251222204911-w6_2025122220491152  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[270/627] flagged 20260220213127-w00                  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[271/627] flagged 20260220213127-w00                  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[272/627] flagged 20260220213127-w00                  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[273/627] flagged 20260220213127-w00                  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[274/627] flagged 20260220214732-auto_grown_20260220  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[275/627] flagged 20260220214732-auto_grown_20260220  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[276/627] flagged 20260220214732-auto_grown_20260220  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[277/627] flagged 20260220214732-auto_grown_20260220  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[278/627] flagged 20260221022814-auto_grown_20260220  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[279/627] flagged 20260221022814-auto_grown_20260220  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[280/627] flagged 20260221022814-auto_grown_20260220  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[281/627] flagged 20260221022814-auto_grown_20260220  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[282/627] flagged 20260321025901-MAN5_outer_3         거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[283/627] flagged 20250926112011-w078_20250926112011  거리 WATCH →WATCH  권취 WATCH →OK     남김  99.7%  조각 1
+[284/627] flagged 20250926112011-w078_20250926112011  거리 WATCH →WATCH  권취 WATCH →OK     남김  99.7%  조각 1
+[285/627] flagged 20250926112011-w078_20250926112011  거리 WATCH →OK     권취 WATCH →OK     남김  99.7%  조각 1
+[286/627] flagged 20250926112011-w078_20250926112011  거리 WATCH →WATCH  권취 WATCH →OK     남김  99.7%  조각 1
+[287/627] flagged 20250926114310-w080_20250926114310  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[288/627] flagged 20250926114310-w080_20250926114310  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[289/627] flagged 20250926114310-w080_20250926114310  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[290/627] flagged 20250926114310-w080_20250926114310  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[291/627] flagged 20250926122938-w082_20250926122938  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[292/627] flagged 20250926122938-w082_20250926122938  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[293/627] flagged 20250926122938-w082_20250926122938  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[294/627] flagged 20250926153406-w088_20250926153406  거리 REVIEW→OK     권취 REVIEW→OK     남김  99.7%  조각 1
+[295/627] flagged 20250926122938-w082_20250926122938  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[296/627] flagged 20250926153406-w088_20250926153406  거리 SPARSE→SPARSE 권취 REVIEW→OK     남김  99.1%  조각 1
+[297/627] flagged 20250926153406-w088_20250926153406  거리 REVIEW→OK     권취 REVIEW→OK     남김  99.7%  조각 1
+[298/627] flagged 20250926153406-w088_20250926153406  거리 REVIEW→OK     권취 REVIEW→OK     남김  99.7%  조각 1
+[299/627] flagged 20251106170358-w076_20251106170358  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[300/627] flagged 20251106170358-w076_20251106170358  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[301/627] flagged 20251106170358-w076_20251106170358  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[302/627] flagged 20251106170358-w076_20251106170358  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[303/627] control 20251107110950-w064_20251107110950  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[304/627] control 20251107110950-w064_20251107110950  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[305/627] control 20251107110950-w064_20251107110950  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[306/627] control 20251107110950-w064_20251107110950  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[307/627] control 20251107175958-w061_20251107175958  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[308/627] control 20251107175958-w061_20251107175958  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[309/627] control 20251107175958-w061_20251107175958  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[310/627] control 20251107175958-w061_20251107175958  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[311/627] flagged 20251110110112-w066_20251110110112  거리 REVIEW→OK     권취 OK    →OK     남김  99.9%  조각 1
+[312/627] flagged 20251110110112-w066_20251110110112  거리 REVIEW→OK     권취 OK    →OK     남김  99.9%  조각 1
+[313/627] flagged 20251110110112-w066_20251110110112  거리 REVIEW→OK     권취 OK    →OK     남김  99.9%  조각 1
+[314/627] flagged 20251110110112-w066_20251110110112  거리 REVIEW→OK     권취 OK    →OK     남김  99.9%  조각 1
+[315/627] control 20251112163527-w071_20251112163527  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[316/627] control 20251112163527-w071_20251112163527  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[317/627] control 20251112163527-w071_20251112163527  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[318/627] control 20251114202035-w081_20251114202035  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[319/627] control 20251112163527-w071_20251112163527  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[320/627] control 20251114202035-w081_20251114202035  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[321/627] control 20251114202035-w081_20251114202035  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[322/627] control 20251114202035-w081_20251114202035  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[323/627] flagged 20251115002740-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[324/627] flagged 20251115002740-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[325/627] flagged 20251115002740-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[326/627] flagged 20251115002740-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[327/627] flagged 20251115002741-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[328/627] flagged 20251115002741-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[329/627] flagged 20251115002741-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[330/627] flagged 20251115002741-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[331/627] flagged 20251115002742-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[332/627] flagged 20251115002742-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[333/627] flagged 20251115002742-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[334/627] flagged 20251115002742-auto_grown_20251115  거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[335/627] flagged 20251115002743-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[336/627] flagged 20251115002743-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[337/627] flagged 20251115002743-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[338/627] flagged 20251115002743-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[339/627] flagged 20251115002744-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[340/627] flagged 20251115002744-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[341/627] flagged 20251115002744-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[342/627] flagged 20251115002744-auto_grown_20251115  거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[343/627] flagged 20251115002745-auto_grown_20251115  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[344/627] flagged 20251115002745-auto_grown_20251115  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[345/627] flagged 20251115002745-auto_grown_20251115  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[346/627] flagged 20251115002745-auto_grown_20251115  거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[347/627] flagged 20251115002748-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[348/627] flagged 20251115002748-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[349/627] flagged 20251115002748-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[350/627] control 20251204060522-w090_20251204060522  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[351/627] flagged 20251115002748-auto_grown_20251115  거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[352/627] control 20251204060522-w090_20251204060522  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[353/627] control 20251204060522-w090_20251204060522  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[354/627] control 20251204060522-w090_20251204060522  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[355/627] flagged 20251206184729-w095_20251206184729  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[356/627] flagged 20251206184729-w095_20251206184729  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[357/627] flagged 20251206184729-w095_20251206184729  거리 REVIEW→OK     권취 REVIEW→WATCH  남김 100.0%  조각 1
+[358/627] flagged 20251206184729-w095_20251206184729  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[359/627] control 20251210142414-w059_20251210142414  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[360/627] control 20251210142414-w059_20251210142414  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[361/627] control 20251210142414-w059_20251210142414  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[362/627] control 20251210142414-w059_20251210142414  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[363/627] control 20251210153304-w058_20251210153304  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[364/627] control 20251210153304-w058_20251210153304  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[365/627] control 20251210153304-w058_20251210153304  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[366/627] control 20251210153304-w058_20251210153304  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[367/627] control 20251210160810-w057_20251210160810  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[368/627] control 20251210160810-w057_20251210160810  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[369/627] control 20251210160810-w057_20251210160810  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[370/627] control 20251210160810-w057_20251210160810  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[371/627] control 20251211111451-w055_20251211111451  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[372/627] control 20251211111451-w055_20251211111451  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[373/627] control 20251211111451-w055_20251211111451  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[374/627] control 20251212105627-w052_20251212105627  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[375/627] control 20251211111451-w055_20251211111451  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[376/627] control 20251212105627-w052_20251212105627  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[377/627] control 20251212105627-w052_20251212105627  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[378/627] control 20240711124827-20240618142020       거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[379/627] control 20251212105627-w052_20251212105627  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[380/627] control 20250919124722-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[381/627] control 20250919124722-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[382/627] control 20250919124722-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[383/627] flagged 20250919125302-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[384/627] control 20250919124722-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[385/627] flagged 20250919125302-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[386/627] flagged 20250919125302-auto_grown_20250919  거리 WATCH →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[387/627] flagged 20250919125302-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[388/627] flagged 20250919132115-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.7%  조각 1
+[389/627] flagged 20250919132115-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.7%  조각 1
+[390/627] flagged 20250919132115-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.7%  조각 1
+[391/627] flagged 20250919133208-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[392/627] flagged 20250919132115-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[393/627] flagged 20250919133208-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[394/627] flagged 20250919133208-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[395/627] flagged 20250919133208-auto_grown_20250919  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[396/627] control 20250919140325-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[397/627] control 20250919140325-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[398/627] control 20250919140325-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[399/627] control 20250919140325-auto_grown_20250919  거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[400/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[401/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[402/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[403/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[404/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[405/627] flagged 20250108000000-w025_2025010863      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[406/627] flagged 20250108000000-w025_2025010863      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[407/627] flagged 20251226000000-w055_2025122611      거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[408/627] flagged 20251226000000-w055_2025122611      거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[409/627] flagged 20251226000000-w055_2025122611      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[410/627] flagged 20251226000000-w055_2025122611      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[411/627] flagged 20251226000000-w055_2025122611      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[412/627] flagged 20251226000000-w055_2025122611      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[413/627] flagged 20260127000000-w057_2026012713      거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[414/627] flagged 20251226000000-w055_2025122611      거리 WATCH →OK     권취 OK    →OK     남김 100.0%  조각 1
+[415/627] flagged 20260127000000-w057_2026012713      거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[416/627] flagged 20260127000000-w057_2026012713      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[417/627] flagged 20260127000000-w057_2026012713      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[418/627] flagged 20260127000000-w057_2026012713      거리 REVIEW→OK     권취 REVIEW→OK     남김 100.0%  조각 1
+[419/627] flagged 20260127000000-w057_2026012713      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[420/627] flagged 20260130000001-w030_202601301912    거리 REVIEW→OK     권취 REVIEW→OK     남김  99.6%  조각 1
+[421/627] flagged 20260127000000-w057_2026012713      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[422/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[423/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[424/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[425/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[426/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[427/627] flagged 20260206000002-w054_2026020617      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[428/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[429/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[430/627] flagged 20260206000002-w054_2026020617      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[431/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[432/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[433/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[434/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[435/627] flagged 20260220000000-w053_2026022021      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[436/627] control 20260215000000-w024_2026021572      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[437/627] flagged 20260220000000-w053_2026022021      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[438/627] flagged 20260220000000-w053_2026022021      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[439/627] flagged 20260220000000-w053_2026022021      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[440/627] flagged 20260220000000-w053_2026022021      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[441/627] flagged 20260220000000-w053_2026022021      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[442/627] flagged 20260227000000-w052_2026022705      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[443/627] flagged 20260227000000-w052_2026022705      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[444/627] flagged 20260220000000-w053_2026022021      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[445/627] flagged 20260227000000-w052_2026022705      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[446/627] flagged 20260227000000-w052_2026022705      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[447/627] flagged 20260227000000-w052_2026022705      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[448/627] flagged 20260227000000-w052_2026022705      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[449/627] flagged 20260306000001-w051_2026030600      거리 REVIEW→OK     권취 OK    →OK     남김 100.0%  조각 1
+[450/627] flagged 20260306000001-w051_2026030600      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[451/627] flagged 20260306000001-w051_2026030600      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[452/627] flagged 20260227000000-w052_2026022705      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[453/627] flagged 20260306000001-w051_2026030600      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[454/627] flagged 20260306000001-w051_2026030600      거리 REVIEW→OK     권취 WATCH →OK     남김 100.0%  조각 1
+[455/627] flagged 20260306000001-w051_2026030600      거리 SPARSE→SPARSE 권취 OK    →OK     남김 100.0%  조각 1
+[456/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[457/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[458/627] flagged 20260306000001-w051_2026030600      거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[459/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[460/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[461/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[462/627] control 20260422000000-title_2026042222_zm  거리 OK    →OK     권취 OK    →OK     남김 100.0%  조각 1
+[463/627] control 20250902170435--5_b2                거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[464/627] control 20250902170435--5_b2                거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[465/627] control 20250902170435--5_b2                거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[466/627] control 20250902170435--5_b2                거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[467/627] flagged 20250611132918-z_dbg_gen_00302_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[468/627] flagged 20250611132918-z_dbg_gen_00302_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[469/627] flagged 20250611132918-z_dbg_gen_00302_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.5%  조각 1
+[470/627] flagged 20250611132918-z_dbg_gen_00302_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[471/627] flagged 20250611132918-z_dbg_gen_00302_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[472/627] flagged 20250611133823-z_dbg_gen_00130_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.8%  조각 1
+[473/627] flagged 20250611133823-z_dbg_gen_00130_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.8%  조각 1
+[474/627] flagged 20250611133823-z_dbg_gen_00130_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  99.1%  조각 1
+[475/627] flagged 20250611133823-z_dbg_gen_00130_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.8%  조각 1
+[476/627] flagged 20250611133823-z_dbg_gen_00130_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[477/627] flagged 20250611134135-z_dbg_gen_00331_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[478/627] flagged 20250611134135-z_dbg_gen_00331_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[479/627] flagged 20250611134135-z_dbg_gen_00331_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.1%  조각 1
+[480/627] flagged 20250611134135-z_dbg_gen_00331_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[481/627] flagged 20250611134135-z_dbg_gen_00331_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[482/627] flagged 20250611153340-z_dbg_gen_00275      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  99.6%  조각 1
+[483/627] flagged 20250611153340-z_dbg_gen_00275      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[484/627] flagged 20250611153340-z_dbg_gen_00275      거리 SPARSE→SPARSE 권취 SKIP  →SKIP   남김 100.0%  조각 1
+[485/627] flagged 20250611153340-z_dbg_gen_00275      거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[486/627] flagged 20250611153340-z_dbg_gen_00275      거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.5%  조각 1
+[487/627] flagged 20250611153346-z_dbg_gen_00286_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[488/627] flagged 20250611153346-z_dbg_gen_00286_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[489/627] flagged 20250611153346-z_dbg_gen_00286_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.5%  조각 1
+[490/627] flagged 20250611153346-z_dbg_gen_00286_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[491/627] flagged 20250611153346-z_dbg_gen_00286_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[492/627] flagged 20250611153347-z_dbg_gen_00105_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  97.1%  조각 1
+[493/627] flagged 20250611153347-z_dbg_gen_00105_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  97.0%  조각 1
+[494/627] flagged 20250611153347-z_dbg_gen_00105_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  97.4%  조각 1
+[495/627] flagged 20250611153347-z_dbg_gen_00105_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  97.1%  조각 1
+[496/627] flagged 20250611153347-z_dbg_gen_00105_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[497/627] flagged 20250611154256-z_dbg_gen_00354_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[498/627] flagged 20250611154256-z_dbg_gen_00354_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[499/627] flagged 20250611154256-z_dbg_gen_00354_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.1%  조각 1
+[500/627] flagged 20250611154256-z_dbg_gen_00354_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[501/627] flagged 20250611154256-z_dbg_gen_00354_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[502/627] flagged 20250611161023-z_dbg_gen_00205_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[503/627] flagged 20250611161023-z_dbg_gen_00205_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[504/627] flagged 20250611161023-z_dbg_gen_00205_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  99.2%  조각 1
+[505/627] flagged 20250611161023-z_dbg_gen_00205_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[506/627] flagged 20250611161023-z_dbg_gen_00205_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[507/627] flagged 20250611161415-z_dbg_gen_00411_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[508/627] flagged 20250611161415-z_dbg_gen_00411_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[509/627] flagged 20250611161415-z_dbg_gen_00411_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[510/627] flagged 20250611161415-z_dbg_gen_00411_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[511/627] flagged 20250611161415-z_dbg_gen_00411_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[512/627] flagged 20250611170257-z_dbg_gen_00308_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.7%  조각 1
+[513/627] flagged 20250611170257-z_dbg_gen_00308_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.0%  조각 1
+[514/627] flagged 20250611170257-z_dbg_gen_00308_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.6%  조각 1
+[515/627] flagged 20250611170257-z_dbg_gen_00308_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.7%  조각 1
+[516/627] flagged 20250611170257-z_dbg_gen_00308_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.8%  조각 1
+[517/627] flagged 20250611171318-z_dbg_gen_00440_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  96.9%  조각 1
+[518/627] flagged 20250611171318-z_dbg_gen_00440_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  96.7%  조각 1
+[519/627] flagged 20250611171318-z_dbg_gen_00440_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  97.3%  조각 1
+[520/627] flagged 20250611171318-z_dbg_gen_00440_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  96.9%  조각 1
+[521/627] flagged 20250611171318-z_dbg_gen_00440_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[522/627] flagged 20250611171745-z_dbg_gen_00225_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[523/627] flagged 20250611171745-z_dbg_gen_00225_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[524/627] flagged 20250611171745-z_dbg_gen_00225_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  99.5%  조각 1
+[525/627] flagged 20250611171745-z_dbg_gen_00225_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[526/627] flagged 20250611171745-z_dbg_gen_00225_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[527/627] flagged 20250611172135-z_dbg_gen_00346_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.3%  조각 1
+[528/627] flagged 20250611172135-z_dbg_gen_00346_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[529/627] flagged 20250611172135-z_dbg_gen_00346_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.5%  조각 1
+[530/627] flagged 20250611172135-z_dbg_gen_00346_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[531/627] flagged 20250611172135-z_dbg_gen_00346_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[532/627] flagged 20250611173014-z_dbg_gen_00506_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.9%  조각 1
+[533/627] flagged 20250611173014-z_dbg_gen_00506_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.9%  조각 1
+[534/627] flagged 20250611173014-z_dbg_gen_00506_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.0%  조각 1
+[535/627] flagged 20250611173014-z_dbg_gen_00506_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  97.9%  조각 1
+[536/627] flagged 20250611173014-z_dbg_gen_00506_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[537/627] flagged 20250628074500-500P2_front          거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[538/627] flagged 20250628074500-500P2_front          거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[539/627] flagged 20250628074500-500P2_front          거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[540/627] flagged 20250628074500-500P2_front          거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[541/627] flagged 20250628074500-500P2_front          거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[542/627] flagged 20250716055227-z_dbg_gen_00260_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  97.2%  조각 1
+[543/627] flagged 20250716055227-z_dbg_gen_00260_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  97.4%  조각 1
+[544/627] flagged 20250716055227-z_dbg_gen_00260_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  97.7%  조각 1
+[545/627] flagged 20250716055227-z_dbg_gen_00260_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  97.4%  조각 1
+[546/627] flagged 20250716055227-z_dbg_gen_00260_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[547/627] flagged 20250716055228-z_dbg_gen_00333_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[548/627] flagged 20250716055228-z_dbg_gen_00333_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[549/627] flagged 20250716055228-z_dbg_gen_00333_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  99.3%  조각 1
+[550/627] flagged 20250716055228-z_dbg_gen_00333_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[551/627] flagged 20250716055228-z_dbg_gen_00333_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.7%  조각 1
+[552/627] flagged 20250716055229-z_dbg_gen_00371_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[553/627] flagged 20250716055229-z_dbg_gen_00371_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[554/627] flagged 20250716055229-z_dbg_gen_00371_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  99.6%  조각 1
+[555/627] flagged 20250716055229-z_dbg_gen_00371_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.4%  조각 1
+[556/627] flagged 20250716055229-z_dbg_gen_00371_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[557/627] flagged 20250716055230-z_dbg_gen_00377_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.1%  조각 1
+[558/627] flagged 20250716055230-z_dbg_gen_00377_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.1%  조각 1
+[559/627] flagged 20250716055230-z_dbg_gen_00377_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[560/627] flagged 20250716055230-z_dbg_gen_00377_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.1%  조각 1
+[561/627] flagged 20250716055230-z_dbg_gen_00377_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[562/627] flagged 20250716055231-z_dbg_gen_00473_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[563/627] flagged 20250716055231-z_dbg_gen_00473_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[564/627] flagged 20250716055231-z_dbg_gen_00473_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[565/627] flagged 20250716055231-z_dbg_gen_00473_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.0%  조각 1
+[566/627] flagged 20250716055231-z_dbg_gen_00473_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[567/627] flagged 20250716055232-z_dbg_gen_00505_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[568/627] flagged 20250716055232-z_dbg_gen_00505_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[569/627] flagged 20250716055232-z_dbg_gen_00505_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.2%  조각 1
+[570/627] flagged 20250716055232-z_dbg_gen_00505_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.9%  조각 1
+[571/627] flagged 20250716055232-z_dbg_gen_00505_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[572/627] flagged 20250716055233-z_dbg_gen_00565_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[573/627] flagged 20250716055233-z_dbg_gen_00565_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[574/627] flagged 20250716055233-z_dbg_gen_00565_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.6%  조각 1
+[575/627] flagged 20250716055233-z_dbg_gen_00565_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[576/627] flagged 20250716055233-z_dbg_gen_00565_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[577/627] flagged 20250716055234-z_dbg_gen_00709_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.0%  조각 1
+[578/627] flagged 20250716055234-z_dbg_gen_00709_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.1%  조각 1
+[579/627] flagged 20250716055234-z_dbg_gen_00709_inp  거리 REVIEW→OK     권취 SKIP  →SKIP   남김  98.4%  조각 1
+[580/627] flagged 20250716055234-z_dbg_gen_00709_inp  거리 REVIEW→WATCH  권취 REVIEW→REVIEW 남김  98.1%  조각 1
+[581/627] flagged 20250716055234-z_dbg_gen_00709_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[582/627] flagged 20250716055235-z_dbg_gen_00779_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[583/627] flagged 20250716055235-z_dbg_gen_00779_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.6%  조각 1
+[584/627] flagged 20250716055235-z_dbg_gen_00779_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.2%  조각 1
+[585/627] flagged 20250716055235-z_dbg_gen_00779_inp  거리 SPARSE→SPARSE 권취 REVIEW→REVIEW 남김  98.3%  조각 1
+[586/627] flagged 20250716055235-z_dbg_gen_00779_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[587/627] flagged 20250716055236-z_dbg_gen_00356_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.2%  조각 1
+[588/627] flagged 20250716055236-z_dbg_gen_00356_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.2%  조각 1
+[589/627] flagged 20250716055236-z_dbg_gen_00356_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.4%  조각 1
+[590/627] flagged 20250716055236-z_dbg_gen_00356_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  98.2%  조각 1
+[591/627] flagged 20250716055236-z_dbg_gen_00356_inp  거리 REVIEW→OK     권취 REVIEW→REVIEW 남김  99.9%  조각 1
+[592/627] control 20250825181917--2                   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[593/627] control 20250825181917--2                   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[594/627] control 20250825181917--2                   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[595/627] control 20250825181917--2                   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[596/627] control 20250825181917--2                   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[597/627] control 20250825181922-1                    거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[598/627] control 20250825181922-1                    거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[599/627] control 20250825181922-1                    거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[600/627] control 20250825181922-1                    거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[601/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[602/627] control 20250825181922-1                    거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[603/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[604/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →-      권취 SKIP  →-      남김   0.0%  조각 0
+[605/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[606/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[607/627] control 20250919184429-0500P2-wrap02_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[608/627] control 20250919184431-0500P2-wrap04_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[609/627] control 20250919184431-0500P2-wrap04_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[610/627] control 20250919184431-0500P2-wrap04_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[611/627] control 20250919184431-0500P2-wrap04_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[612/627] control 20250919184431-0500P2-wrap04_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[613/627] control 20250919184435-0500P2-wrap08_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[614/627] control 20250919184435-0500P2-wrap08_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[615/627] control 20250919184435-0500P2-wrap08_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[616/627] control 20250919184435-0500P2-wrap08_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[617/627] control 20250919184435-0500P2-wrap08_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[618/627] control 20250919184436-0500P2-wrap09_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[619/627] control 20250919184436-0500P2-wrap09_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[620/627] control 20250919184436-0500P2-wrap09_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[621/627] control 20250919184436-0500P2-wrap09_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[622/627] control 20250919184436-0500P2-wrap09_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[623/627] control 20250922024644-0500P2-wrap11_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+[624/627] control 20250922024644-0500P2-wrap11_0919   거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[625/627] control 20250922024644-0500P2-wrap11_0919   거리 OK    →OK     권취 SKIP  →SKIP   남김 100.0%  조각 1
+[626/627] control 20250922024644-0500P2-wrap11_0919   거리 OK    →OK     권취 WATCH →WATCH  남김 100.0%  조각 1
+[627/627] control 20250922024644-0500P2-wrap11_0919   거리 OK    →OK     권취 REVIEW→REVIEW 남김 100.0%  조각 1
+REPAIRDONE
