@@ -35,6 +35,7 @@ say what threshold means "suspicious". These are those numbers.
 |---|---|---|
 | `results_seamcheck.csv` | 1,246 | 3D neighbour-step statistics per surface representation |
 | `results_windcheck.csv` | 697 | winding number and angular continuity per representation |
+| `results_repair.csv` | 627 | automatic seam repair: area kept, distance and winding verdicts before/after (442 flagged + 185 control) |
 
 ### `results_seamcheck.csv`
 
