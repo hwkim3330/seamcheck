@@ -5,3 +5,7 @@ wind.log
 *.jsonl
 rejudged.json
 switchbench/patches/
+switchbench/ct_cache/
+switchbench/feat/
+switchbench/feat2/
+switchbench/*.log
