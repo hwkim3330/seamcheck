@@ -4,3 +4,4 @@ all.log
 wind.log
 *.jsonl
 rejudged.json
+switchbench/patches/
